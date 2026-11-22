@@ -1,0 +1,18 @@
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+.auth/
+
+# Secrets: only .env.example is committed
+.env
+.env.*
+!.env.example
+
+# Private notes: must never reach a client repo
+CLAUDE.md
+
+# Personal Claude Code settings
+.claude/settings.local.json
